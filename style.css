@@ -1,0 +1,81 @@
+body {
+    font-family: "Playwrite PL", cursive;
+    margin: 0;
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.main_content {
+    background-color: #181818;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.sidebar {
+    background-color: #000;
+    width: 300px;
+}
+
+.nav {
+    padding: 0.5rem 0.75rem ;
+    border-radius: 0.5rem;
+    margin: 0.3rem ;
+    background-color: #202020;
+}
+.nav-option {
+    padding: 0.25rem 0.75rem;
+    line-height: 2rem;
+    opacity: 0.7;
+}
+.nav-option:hover {
+    opacity: 1;
+}
+
+.nav-option i {
+    font-size: 1.2rem;
+}
+.nav-option a {
+    margin: 0rem 0.5rem;
+    position: relative;
+    bottom: 0.1rem;
+}
+
+.library {
+    height: 100%;
+    padding: 0.5rem 0.75rem ;
+    border-radius: 0.5rem;
+    margin: 0.3rem ;
+    background-color: #202020;
+}
+
+.nav-option img {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.nav-option .fa-plus {
+    position: relative;
+    left: 6.5rem;
+    opacity: 1;
+}
+
+
+.music_player {
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
